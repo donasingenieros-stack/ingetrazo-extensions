@@ -7,7 +7,7 @@ license = "GPL-3.0-or-later"
 
 repository = "https://github.com/donasingenieros-stack/ingetrazo-portico-nave"
 
-download = "https://raw.githubusercontent.com/donasingenieros-stack/ingetrazo-portico-nave/v1.2/portico_nave.py"
+download = "https://raw.githubusercontent.com/donasingenieros-stack/ingetrazo-portico-nave/1.2/portico_nave.py"
 sha256 = "5a1271df426588ef66bb7d1595ecfda661184b1efe9880bb18d38011c14c2d6b"
 
 ingetrazo = "0.6.2.1"
