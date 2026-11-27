@@ -1,5 +1,5 @@
 id = "portico_nave"
-version = "1.2"
+version = "1.3"
 author = "José María Martín García-Donas (Donas Ingenieros)"
 author_url = "https://github.com/donasingenieros-stack"
 
@@ -7,8 +7,8 @@ license = "GPL-3.0-or-later"
 
 repository = "https://github.com/donasingenieros-stack/ingetrazo-portico-nave"
 
-download = "https://raw.githubusercontent.com/donasingenieros-stack/ingetrazo-portico-nave/1.2/portico_nave.py"
-sha256 = "5a1271df426588ef66bb7d1595ecfda661184b1efe9880bb18d38011c14c2d6b"
+download = "https://raw.githubusercontent.com/donasingenieros-stack/ingetrazo-portico-nave/b70efa8cf97061c67986d04f37c5e23bbc04718b/portico_nave.py"
+sha256 = "a08c8daf0780236eeea126175caffdfd8c0dce12865dd822715eb2d71f581e34"
 
 ingetrazo = "0.6.2.1"
 
@@ -16,16 +16,17 @@ tags = ["structures", "bim", "architecture"]
 screenshot = "portico_nave.webp"
 
 [name]
-es = "Pórtico de nave"
-en = "Portal-frame shed"
-pt = "Pórtico de galpão"
+es = "Acero: nave de pórticos"
+en = "Steel: portal-frame shed"
+pt = "Aço: galpão de pórticos"
 
 [summary]
 es = "Nave de pórticos metálicos a dos aguas, paramétrica y editable: perfiles IPE/HEA/HEB, cruces de San Andrés, fachadas de paneles, correas, canalón y puente grúa, con clases BIM y medición de acero."
 en = "Parametric, editable gable portal-frame steel shed: IPE/HEA/HEB sections, cross bracing, panel walls, purlins, gutter and crane runway, with BIM classes and a steel take-off."
 pt = "Galpão de pórticos metálicos de duas águas, paramétrico e editável: perfis IPE/HEA/HEB, contraventamento em X, fachadas de painéis, terças, calha e ponte rolante, com classes BIM e quantitativo de aço."
 
+
 [description]
-es = "Extensiones ▸ Pórtico de nave ▸ Nueva nave… abre un cuadro de parámetros por pestañas: luz, altura de alero en cada fachada (con aleros distintos la cumbrera se desplaza), pendiente, número de pórticos y separación; perfiles IPE, HEA y HEB para pilares y dinteles, con dintel distinto opcional en los pórticos extremos; pilar que sobrepasa el dintel y dintel contra el ala interior del pilar; cartelas de alero y de cumbrera; correas C o Z conformadas, o IPE; canalón en U sobre el dintel; puente grúa opcional con ménsulas y viga carril; cruces de San Andrés en redondo, en cubierta y fachadas laterales; y fachadas de paneles de hormigón en las cuatro fachadas, con altura de fachada y de placa propias, perfil U (UPE o UPN) en las esquinas de los piñones y perfiles intermedios. Avisa de interferencias. Los pórticos y sus piezas son componentes con etiquetas y clase IFC. Los parámetros se guardan en la nave (.igz): Editar nave… la regenera en su sitio en un solo paso de deshacer, y Medición de acero… da los pesos por elemento y los paneles por fachada, copiables a Excel. Interfaz en español e inglés."
-en = "Extensions ▸ Pórtico de nave ▸ New shed… opens a tabbed dialog: span, eaves height on each side (with different eaves the ridge shifts), roof pitch, number of frames and spacing; IPE, HEA and HEB sections for columns and rafters, with an optional different rafter in the end frames; columns rising above the rafter, which butts against the inner column flange; eaves and ridge haunches; cold-formed C or Z purlins, or IPE; U gutter resting on the rafter; optional crane runway with brackets and runway beam; round-bar cross bracing in the roof and side walls; and concrete panel walls on all four sides, each with its own wall and panel height, channel (UPE or UPN) corner posts and intermediate posts on the gables. It warns about clashes. Frames and their parts are components with layers and IFC classes. Parameters live in the shed (.igz): Edit shed… rebuilds it in place as one undo step, and Steel take-off… gives weights per element and panels per wall, ready to paste into Excel. Spanish and English interface."
-pt = "Extensões ▸ Pórtico de nave ▸ Nova nave… abre um diálogo com abas: vão, altura do beiral em cada fachada (com beirais diferentes a cumeeira se desloca), inclinação, número de pórticos e espaçamento; perfis IPE, HEA e HEB para pilares e vigas, com viga diferente opcional nos pórticos extremos; pilar que ultrapassa a viga e viga contra a aba interna do pilar; mísulas de beiral e de cumeeira; terças C ou Z conformadas, ou IPE; calha em U sobre a viga; ponte rolante opcional com consolos e viga de rolamento; contraventamento em X com barras redondas na cobertura e nas fachadas laterais; e fachadas de painéis de concreto nas quatro fachadas, cada uma com sua altura de fachada e de painel, perfis U (UPE ou UPN) nos cantos das empenas e perfis intermediários. Avisa sobre interferências. Pórticos e peças são componentes com camadas e classes IFC. Os parâmetros ficam na nave (.igz): Editar nave… a regenera no lugar em um só passo de desfazer, e Medición de acero… dá os pesos por elemento e os painéis por fachada, prontos para o Excel. Interface em espanhol e inglês."
+es = "Extensiones ▸ Acero: nave de pórticos ▸ Nueva nave… abre un cuadro de parámetros por pestañas: luz, altura de alero en cada fachada (con aleros distintos la cumbrera se desplaza), pendiente, número de pórticos y separación; perfiles IPE, HEA y HEB para pilares y dinteles, con dintel distinto opcional en los pórticos extremos; pilar que sobrepasa el dintel y dintel contra el ala interior del pilar; cartelas de alero y de cumbrera; correas C o Z conformadas, o IPE; canalón en U sobre el dintel; puente grúa opcional con ménsulas y viga carril; cruces de San Andrés en redondo, en cubierta y fachadas laterales; y fachadas de paneles de hormigón en las cuatro fachadas, con altura de fachada y de placa propias, perfil U (UPE o UPN) en las esquinas de los piñones y perfiles intermedios. Avisa de interferencias. Los pórticos y sus piezas son componentes con etiquetas y clase IFC. Los parámetros se guardan en la nave (.igz): Editar nave… la regenera en su sitio en un solo paso de deshacer, y Medición de acero… da los pesos por elemento y los paneles por fachada, copiables a Excel. Interfaz en español e inglés."
+en = "Extensions ▸ Steel: portal-frame shed ▸ New shed… opens a tabbed dialog: span, eaves height on each side (with different eaves the ridge shifts), roof pitch, number of frames and spacing; IPE, HEA and HEB sections for columns and rafters, with an optional different rafter in the end frames; columns rising above the rafter, which butts against the inner column flange; eaves and ridge haunches; cold-formed C or Z purlins, or IPE; U gutter resting on the rafter; optional crane runway with brackets and runway beam; round-bar cross bracing in the roof and side walls; and concrete panel walls on all four sides, each with its own wall and panel height, channel (UPE or UPN) corner posts and intermediate posts on the gables. It warns about clashes. Frames and their parts are components with layers and IFC classes. Parameters live in the shed (.igz): Edit shed… rebuilds it in place as one undo step, and Steel take-off… gives weights per element and panels per wall, ready to paste into Excel. Spanish and English interface."
+pt = "Extensões ▸ Aço: galpão de pórticos ▸ Nova nave… abre um diálogo com abas: vão, altura do beiral em cada fachada (com beirais diferentes a cumeeira se desloca), inclinação, número de pórticos e espaçamento; perfis IPE, HEA e HEB para pilares e vigas, com viga diferente opcional nos pórticos extremos; pilar que ultrapassa a viga e viga contra a aba interna do pilar; mísulas de beiral e de cumeeira; terças C ou Z conformadas, ou IPE; calha em U sobre a viga; ponte rolante opcional com consolos e viga de rolamento; contraventamento em X com barras redondas na cobertura e nas fachadas laterais; e fachadas de painéis de concreto nas quatro fachadas, cada uma com sua altura de fachada e de painel, perfis U (UPE ou UPN) nos cantos das empenas e perfis intermediários. Avisa sobre interferências. Pórticos e peças são componentes com camadas e classes IFC. Os parâmetros ficam na nave (.igz): Editar nave… a regenera no lugar em um só passo de desfazer, e Medición de acero… dá os pesos por elemento e os painéis por fachada, prontos para o Excel. Interface em espanhol e inglês."
